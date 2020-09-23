@@ -2,23 +2,19 @@
 
 /*
 |--------------------------------------------------------------------------
-| Routes
+| Rotas
 |--------------------------------------------------------------------------
 |
-| Http routes are entry points to your web application. You can create
-| routes for different URLs and bind Controller actions to them.
-|
-| A complete guide on routing is available here.
-| http://adonisjs.com/docs/4.1/routing
+| As rotas Http são pontos de entrada para o aplicativo
 |
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-
-Route.post('/authenticate', 'AuthController.authenticate')
-
+/*
+     O Route.resource atribui rotas CRUD a um controlador usando uma única linha de código
+*/ 
 Route.group(()=>{ 
     Route.resource("/veiculos", "VeiculoController").apiOnly()
 })

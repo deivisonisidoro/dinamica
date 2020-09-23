@@ -11,8 +11,9 @@ Factory.blueprint('App/Models/Veiculo', (faker, i, data = {}) => {
     return {
         veiculo: faker.string(),
         marca: faker.string(),
-        ano:faker.integer(),
+        ano: faker.integer({min:1, max: 2020}),
         descricao: faker.paragraph(),
+        vendido: faker.bool(),
        
         ...data,
     };
