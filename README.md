@@ -4,7 +4,7 @@
 
 O sistema faz um CRUD, ele adiciona um novo veículo, atualiza os dados de um veículo, atualiza apenas alguns dados do veículo, retorna os detalhes do veículo, e apaga o veículo
 
-## Aplcção API Adonis
+## Aplicação API Adonis
 
 Isto é uma API REST, que utiliza o framework AdonisJs, ele vem pré-configurado com.
 
