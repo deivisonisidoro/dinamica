@@ -33,7 +33,7 @@ Depois de clonar o projeto rode o comando:
 ```js
 yarn add @adonisjs/ignitor
 ```
-###Arquivo .env
+### Arquivo .env
 
 O arquivo .env serve para configuar o projeto, nele pode-se definir em qual porta a api vai ser executada, o nome do banco de dados, a senha, e diversas outras coisas, para excuta o arquivo nao pode esquecer de ter renomeado o arquivo .env.example para .env e configurado o seu banco de dados.    
 
