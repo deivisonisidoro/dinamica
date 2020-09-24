@@ -1,6 +1,10 @@
 # Dinamica 
 
-## Adonis API application
+## Funcinamento 
+
+O sistema faz um CRUD, ele adiciona um novo veículo, atualiza os dados de um veículo, atualiza apenas alguns dados do veículo, retorna os detalhes do veículo, e apaga o veículo
+
+## Aplcção API Adonis
 
 Isto é uma API REST, que utiliza o framework AdonisJs, ele vem pré-configurado com.
 
@@ -13,23 +17,38 @@ Isto é uma API REST, que utiliza o framework AdonisJs, ele vem pré-configurado
 ## Arquitetura 
 
 O adonis já vem com uma arquitetura de pasta já definida, eu gosto de usá-lo porque ele ja tem uma "opinião", está "opinião" ajuda para a organização de um time, determinando por exemplo onde colocar as regras de negocios, fazendo assim que não aja atrito no time      
-## Setup
 
-Use o comando adonis para instalar o blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-ou clone manualmente o repo e execute `npm install`.
 
 ## Configuração do projeto 
 
-Para configurar o projeto é bem simples, renomeando o arquivo .env.example para .env e configurado o seu banco de dados, e adicioando o nome do banco de dados a sua escolha e a senha a sua escolha. Logo depois é só executar a migrations para adicionar base de dados
+Para configurar o projeto é bem simples, primeiro certfique que tenha a cli  do adonis instalado, se nao tiver é só usar o comando:
+
+
+```bash
+yarn add -g @adonisjs/cli
+```
+
+Depois de clonar o projeto rode o comando: 
+
+```js
+yarn add @adonisjs/ignitor
+```
+###Arquivo .env
+
+O arquivo .env serve para configuar o projeto, nele pode-se definir em qual porta a api vai ser executada, o nome do banco de dados, a senha, e diversas outras coisas, para excuta o arquivo nao pode esquecer de ter renomeado o arquivo .env.example para .env e configurado o seu banco de dados.    
+
 ### Migrations
 
-Execute o seguinte comando para executar migrações de inicialização.
+A migration é uma forma de versionar o schema de sua aplicação, execute o seguinte comando para executar migrações de inicialização.
 
 ```js
 adonis migration:run
+```
+
+## Testes
+
+Existem 6 testes unitario que tem como objetivo testar se as funcionalidades da Api estão funcionando corretamente, e se elas nao afetam nenhuma outra do sistema, para rodar os testes execute o comando:  
+
+```js
+adonis test
 ```
