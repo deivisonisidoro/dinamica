@@ -2,7 +2,7 @@
 
 ## Funcinamento 
 
-O sistema faz um CRUD, ele adiciona um novo veículo, atualiza os dados de um veículo, atualiza apenas alguns dados do veículo, retorna os detalhes do veículo, e apaga o veículo
+O sistema faz um CRUD, ele tem como funcionalidade, adicionar novos veículos, atualizar vários dados, ou apenas dados específicos, retornar os detalhes do veículo, e apagar qualquer tipo de dados do veículo
 
 ## Aplicação API Adonis
 
