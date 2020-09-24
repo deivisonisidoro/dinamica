@@ -21,7 +21,7 @@ O adonis já vem com uma arquitetura de pasta já definida, eu gosto de usá-lo 
 
 ## Configuração do projeto 
 
-Para configurar o projeto é bem simples, primeiro certfique que tenha a cli  do adonis instalado, se nao tiver é só usar o comando:
+Para configurar o projeto é bem simples, primeiro certifique que tenha a cli  do adonis instalado, se nao tiver é só usar o comando:
 
 
 ```bash
@@ -35,10 +35,9 @@ yarn add @adonisjs/ignitor
 ```
 ### Arquivo .env
 
-O arquivo .env serve para configuar o projeto, nele pode-se definir em qual porta a api vai ser executada, o nome do banco de dados, a senha, e diversas outras coisas, nao pode esquecer de ter renomeado o arquivo .env.example para .env e configurado o seu banco de dados.    
+O arquivo .env serve para configuar o projeto, nele pode-se definir em qual porta a api vai ser executada, o nome do banco de dados, a senha, e diversas outras coisas, não pode esquecer de renomear o arquivo .env.example para .env e configurar o seu banco de dados.    
 
 ### Migrations
-
 A migration é uma forma de versionar o schema de sua aplicação, execute o seguinte comando para executar migrações de inicialização.
 
 ```js
