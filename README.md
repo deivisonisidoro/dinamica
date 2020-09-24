@@ -6,7 +6,7 @@ O sistema faz um CRUD, ele tem como funcionalidade, adicionar novos veículos, a
 
 ## Aplicação API Adonis
 
-Isto é uma API REST, que utiliza o framework AdonisJs, ele vem pré-configurado com.
+Isto é uma API REST, que utiliza o framework AdonisJs, ele vem pré-configurado com:
 
 1. Bodyparser
 2. Authentication
