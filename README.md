@@ -35,7 +35,7 @@ yarn add @adonisjs/ignitor
 ```
 ### Arquivo .env
 
-O arquivo .env serve para configuar o projeto, nele pode-se definir em qual porta a api vai ser executada, o nome do banco de dados, a senha, e diversas outras coisas, para excuta o arquivo nao pode esquecer de ter renomeado o arquivo .env.example para .env e configurado o seu banco de dados.    
+O arquivo .env serve para configuar o projeto, nele pode-se definir em qual porta a api vai ser executada, o nome do banco de dados, a senha, e diversas outras coisas, nao pode esquecer de ter renomeado o arquivo .env.example para .env e configurado o seu banco de dados.    
 
 ### Migrations
 
@@ -47,7 +47,7 @@ adonis migration:run
 
 ## Testes
 
-Existem 6 testes unitario que tem como objetivo testar se as funcionalidades da Api estão funcionando corretamente, e se elas nao afetam nenhuma outra do sistema, para rodar os testes execute o comando:  
+Existem 6 testes unitários que tem como objetivo testar se as funcionalidades da Api estão funcionando corretamente, e se elas nao afetam nenhuma outra do sistema, para rodar os testes execute o comando:  
 
 ```js
 adonis test
